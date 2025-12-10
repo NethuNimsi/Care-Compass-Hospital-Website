@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Admin Portal</title>
+    <link rel="icon" type="image/x-icon" href="images/logo (2).png">
+    <link rel="stylesheet" href="Admin_panel.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="dashboard">
+        <div class="sidebar">
+            <div class="logo">
+                <img src="images/logo (2).png" alt="Hospital Logo">
+                <h2>Admin Portal</h2>
+            </div>
+            <ul class="nav">
+                <li><a href="#" class="active"><i class="fas fa-home"></i>Dashboard</a></li>
+                <li><a href="#"><i class="fas fa-user-injured"></i>Patients</a></li>
+                <li><a href="#"><i class="fas fa-user-md"></i>Doctors</a></li>
+                <li><a href="#"><i class="fas fa-calendar-check"></i>Appointments</a></li>
+                <li><a href="#"><i class="fas fa-file-medical"></i>Reports</a></li>
+                <li><a href="#"><i class="fas fa-cog"></i>Settings</a></li>
+            </ul>
+        </div>
+
+        <div class="main-content">
+            
+            <header>
+                <div class="header-left">
+                    <h1>Welcome to the Admin Dashboard!</h1>
+                </div>
+                <div class="header-right">
+                    <div class="search-box">
+                        <input type="text" placeholder="Search...">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="user-profile">
+                        <img src="images/admin-avatar.jpg" alt="Admin Avatar">
+                        <span>Admin</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+            </header>
+
+            <div class="stats-cards">
+                <div class="card">
+                    <h3>Total Patients</h3>
+                    <p>1,234</p>
+                    <i class="fas fa-user-injured"></i>
+                </div>
+                <div class="card">
+                    <h3>Total Doctors</h3>
+                    <p>56</p>
+                    <i class="fas fa-user-md"></i>
+                </div>
+                <div class="card">
+                    <h3>Appointments</h3>
+                    <p>78</p>
+                    <i class="fas fa-calendar-check"></i>
+                </div>
+                <div class="card">
+                    <h3>Pending Reports</h3>
+                    <p>12</p>
+                    <i class="fas fa-file-medical"></i>
+                </div>
+            </div>
+
+           
+            <div class="recent-activity">
+                <h2>Recent Activity</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Patient Name</th>
+                            <th>Doctor</th>
+                            <th>Appointment Date</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>Dr. Boyan Hadjiev</td>
+                            <td>2025-02-25</td>
+                            <td><span class="status completed">Completed</span></td>
+                        </tr>
+                        <tr>
+                            <td>Jane Doe</td>
+                            <td>Dr. Georgia Gaveras</td>
+                            <td>2025-02-26</td>
+                            <td><span class="status pending">Pending</span></td>
+                        </tr>
+                        <tr>
+                            <td>Alice Johnson</td>
+                            <td>Dr. Paul Carpentier</td>
+                            <td>2025-02-27</td>
+                            <td><span class="status in-progress">In Progress</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>

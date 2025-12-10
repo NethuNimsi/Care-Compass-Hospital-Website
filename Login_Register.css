@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(images/blurbg1.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.form-box {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.hidden {
+    display: none;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: black;
+}
+
+.input-group {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.input-group input,
+.input-group select {
+    width: 100%;
+    padding: 0.8rem 2.5rem;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.8);
+    font-size: 1rem;
+    color: black;
+    outline: none;
+}
+
+.input-group i {
+    position: absolute;
+    left: 10px;
+    color: #666;
+}
+
+.input-group select {
+    padding-right: 2.5rem;
+}
+
+.input-group select i {
+    position: absolute;
+    right: 15px;
+    color: #666;
+}
+
+.btn {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 8px;
+    background: #1977cc;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    width: 100%; 
+    margin-top: 5px;
+}
+
+.btn:hover {
+    background: #1a5bbf;
+}
+
+.toggle-text {
+    font-size: 0.9rem;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.toggle-text a {
+    color: #2575fc;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.toggle-text a:hover {
+    color: #1a5bbf;
+}
+
+.social-login {
+    margin-top: 0;
+}
+
+.social-login p {
+    color: black;
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.social-icons a {
+    color: #2c4964;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #2575fc;
+}
+
+.forgot-password {
+    text-align: right;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.forgot-password a {
+    color: #2575fc;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+.forgot-password a:hover {
+    color: #1a5bbf;
+}

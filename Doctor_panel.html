@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Portal</title>
+    <link rel="icon" type="image/x-icon" href="images/logo (2).png">
+    <link rel="stylesheet" href="Patient_Doctor_panel.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="dashboard">
+       
+        <div class="sidebar">
+            <div class="logo">
+                <img src="images/logo (2).png" alt="Hospital Logo">
+                <h2>Doctor Portal</h2>
+            </div>
+            <ul class="nav">
+                <li><a href="#" class="active"><i class="fas fa-home"></i>Dashboard</a></li>
+                <li><a href="#"><i class="fas fa-calendar-check"></i>Appointments</a></li>
+                <li><a href="#"><i class="fas fa-user-injured"></i>Patients</a></li>
+                <li><a href="#"><i class="fas fa-file-medical"></i>Medical Records</a></li>
+                <li><a href="#"><i class="fas fa-cog"></i>Settings</a></li>
+            </ul>
+        </div>
+
+        
+        <div class="main-content">
+            
+            <header>
+                <div class="header-left">
+                    <h1>Welcome to the Doctor Dashboard!</h1>
+                </div>
+                <div class="header-right">
+                    <div class="search-box">
+                        <input type="text" placeholder="Search...">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="user-profile">
+                        <img src="images/Our Doctors/doctor-3.jpg" alt="Doctor Avatar">
+                        <span>Dr. Boyan Hadjiev</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+            </header>
+
+           
+            <div class="appointments">
+                <h2>Today's Appointments</h2><br>
+                <div class="appointment-card">
+                    <div class="appointment-details">
+                        <h3>John Doe</h3>
+                        <p>Cardiology Consultation</p>
+                        <p><i class="fas fa-clock"></i> 10:00 AM</p>
+                    </div>
+                    <button class="btn">Start Consultation</button>
+                </div>
+                <div class="appointment-card">
+                    <div class="appointment-details">
+                        <h3>Jane Doe</h3>
+                        <p>Follow-up Visit</p>
+                        <p><i class="fas fa-clock"></i> 11:00 AM</p>
+                    </div>
+                    <button class="btn">Start Consultation</button>
+                </div>
+            </div>
+
+            
+            <div class="patient-records">
+                <h2>Patient Records</h2><br>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Patient Name</th>
+                            <th>Last Visit</th>
+                            <th>Diagnosis</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>2025-02-25</td>
+                            <td>Hypertension</td>
+                            <td><a href="#" class="view-link"><i class="fas fa-eye"></i> View</a></td>
+                        </tr>
+                        <tr>
+                            <td>Jane Doe</td>
+                            <td>2025-02-25</td>
+                            <td>Allergy Test</td>
+                            <td><a href="#" class="view-link"><i class="fas fa-eye"></i> View</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
